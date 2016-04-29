@@ -1,7 +1,17 @@
 # Author Details
 
-Workflow Developed by: Sid Smith - http://www.dailyhypervisor.com
+Workflow Developed by: Sid Smith - http://www.dailyhypervisor.com  
 Product Documentation available at:   
+
+# Workflow Description
+
+The workflow creates a dynamic folder structure based on defined schema and properties.  
+It writes the folder structure back as the value for VMware.virtualcenter.folder property.
+
+# Workflow Type
+
+This is a State Transtion Event workflow that executes at the Building Machine pre state.
+
 
 # Workflow Installation
 
